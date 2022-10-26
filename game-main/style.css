@@ -1,0 +1,54 @@
+body{
+background: 
+url(bg.jpeg);
+background-position: inherit;
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+h1{
+    text-align: center;
+    color: white;
+}
+.secret{
+    /* padding: 10px 25%;
+     */
+}
+.headd{
+    text-align: left;
+}
+header {
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+
+}
+header:before, header:after {
+    content: "";
+    flex: 1 1;
+    border-bottom: 2px solid #000;
+    margin: auto;
+}
+
+
+.q{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: red;
+}
+
+
+
+@media only screen and (min-width: 1000px) {
+    .small {
+        text-align: center;
+    }
+    .secret{
+        padding: 10px 25%;
+         
+    }
+    .headd{
+            text-align: center;
+    }
+
+  }
