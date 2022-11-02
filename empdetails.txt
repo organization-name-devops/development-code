@@ -1,7 +1,5 @@
 Name Age 
 Test 40
-DvOps 90
 Dev  30
 QAT  40
 Prod 50
-working on revert to check for 2 files modified
